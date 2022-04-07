@@ -1,0 +1,229 @@
+@font-face {
+    font-family: spiderman;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+body{
+    margin: 0;
+}
+header{
+    background-color: #b11313;
+}
+.tête{
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+h1 {
+    font-family: spiderman;
+}
+.logo{
+    padding-left: 2px;
+    margin: 10px;
+    margin-left: 60px;
+}
+.rat{
+    color: #ffffff;
+    padding-right: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+@media all and (max-width: 1024px)
+{
+    nav{
+        width: auto;
+        text-align: left;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
+section.jaune{
+    background-color: #f1c530;
+    height: 50vh;
+    padding: 0px;
+    padding-bottom: 50px;
+}
+.A{
+    margin-left: 150px;
+}
+.image{
+    float: right;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.text{
+    color: white;
+    padding-top: 50px;  
+}
+div.jaune{
+    float: right;
+}
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        flex-direction: column;
+    }
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    #fleche_bulle
+    {
+        display: none;
+    }
+    #photo_spider img
+    #photo_img34 img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    aside p:last-child
+    {
+        text-align: center;
+    }
+
+}
+/* formule */
+
+.rouge{
+    background-color: #b11313;
+    height: 600px;
+    padding-top: 50px;
+    
+}
+.B{
+    margin-left: 120px;
+}
+.nard{
+    margin-left:40px;
+}
+.corp-formulaire{
+    margin-left: 10px;
+    text-align: right;
+    margin-top: -300px;
+    padding-top: 10px;  
+}
+.groupe{
+    
+    padding: 5px 3px 10px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 450px;
+}
+.groupe1{
+    margin-left: 10px;
+    text-align: right;
+    margin-top: -10px;
+    padding-top: 10px;
+    margin-right: 70px;
+}
+/*text*/
+
+.bleue{
+    background-color: #114c92 ;
+    padding-top: 50px;
+}
+.oi{
+    margin-left: 90px;
+}
+.z{
+    margin-left: 70px;
+}
+
+.a{
+    display: flex;
+    size: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.li{
+    padding-bottom: -20px;
+}
+.a,.b{
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+}
+.tête{
+    margin-left: 70px;
+}
+.p{
+   display: flex;
+   justify-content: space-between;
+   padding-bottom: 40px;
+   padding-top: 40px;
+   margin-left: 100px;
+   margin-right: 100px;
+   height: 30px;
+}
+/* fin */
+
+footer{
+    background-color: #000000;
+}
+.x{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 90px;
+    margin-right: 100px;
+    list-style: none;
+    text-decoration: none;
+}
+.o{
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-left: -50px;
+    text-align: center;
+}
+
+.i,.x{
+    display: flex;
+}
+.lien{
+    text-decoration: none;
+    color: #ffffff;
+    top: 20px;
+}
+.langue{
+    padding-top: -60px;
+    top: -50px;
+}
+.fin{
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+#bloc_page
+{
+ width: 900px;
+ margin: auto;   
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}

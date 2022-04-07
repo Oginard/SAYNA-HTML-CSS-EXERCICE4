@@ -1,0 +1,155 @@
+@font-face {
+    font-family: batman;
+    src: url(./Far-From\ Homecoming\ Updated.otf);
+}
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: #b11313;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+h1 {
+    font-family: batman;
+}
+
+.roi{
+    color: #FFFFFF;
+    padding-right: 40px;
+    list-style: none;
+    text-decoration: none;
+}
+.read{
+    padding-top: 480px;
+    color: #FFFFFF;
+    padding-left: 400px;
+}
+section{
+    background-image: url(./Illustration/img35.png);
+    background-size: cover;
+    padding-bottom: 90px;
+    
+}
+@media all and (max-width: 1024px)
+{
+    nav{
+        width: auto;
+        text-align: left;
+    }
+    nav ul
+    {
+        flex-direction: column;
+    }
+    nav li
+    {
+        padding-left: 4px;
+    }
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    section
+    {
+        flex-direction: column;
+    }
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+    #fleche_bulle
+    {
+        display: none;
+    }
+    #photo_img35 img
+    {
+        width: 110px;
+        float: right;
+        margin-left: 15px;
+    }
+    aside p:last-child
+    {
+        text-align: center;
+    }
+
+}
+
+
+/*footer*/
+
+footer{
+    background-color: #000000;
+}
+.foot{
+    padding-top: 70px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.x{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 70px;
+    list-style: none;
+    text-decoration: none;
+}
+.o{
+    padding-top: 40px;
+    justify-content: space-between;
+    padding-left: -50px;
+    text-align: center;
+}
+
+.i,.x{
+    display: flex;
+}
+.lien{
+    text-decoration: none;
+    color: #ffffff;
+    top: 20px;
+}
+.langue{
+    padding-top: -60px;
+    top: -50px;
+    
+}
+.fin{
+    color: #FFFFFF;
+}
+.lien{
+    padding-right: 50px;
+}
+.fin.lien{
+    color: #ffffff;
+    padding-right: 50px;
+}
+#bloc_page
+{
+ width: 900px;
+ margin: auto;   
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
